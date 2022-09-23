@@ -1,0 +1,72 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header {
+background-color:rgb(119, 33, 59);
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 100px;
+}
+.logo{
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 1cm;
+}
+span{
+    color: rgb(226, 226, 226);
+    }
+.navigation a{
+color: black;
+text-decoration: none;
+}
+.navigation a:hover{
+color: aliceblue;
+}
+section{
+padding: 100px 200px;
+background-color: rgb(212, 201, 187);
+}
+
+.main{
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background-color: rgb(251, 250, 255);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.footer{
+background-color:rgb(119, 33, 59) ;
+color: aliceblue;
+padding: 0.5cm;
+display: flex;
+justify-content: space-between;
+}
+.footer-title{
+font-size: 0.5cm;
+font-weight: 300;
+}
+
+.footer-title{
+color: aliceblue;
+}
+.footer a:hover{
+color: aliceblue;
+}
+.footer a{
+color: black;
+text-decoration: none;
+font-size: xx-large;
+}
